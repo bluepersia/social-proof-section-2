@@ -26,3 +26,65 @@ body
 * :last-child {
     margin-bottom: 0;
 }
+
+/* Typography */
+
+html {
+  font-size: 17px;  
+}
+
+.cmp 
+{
+    font-family: var(--cmp-f-1);
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.cmp h1 
+{
+    font-size: 2.35rem;
+    line-height: .8;
+    color: var(--cmp-c-VeryDarkMagenta);
+}
+
+.cmp__header-body 
+{
+    font-size: 1.117rem;
+    color: var(--cmp-c-DarkGrayishMagenta);
+}
+
+.cmp h4 
+{
+    font-size: 1rem;
+}
+
+.cmp__rating-text 
+{
+    color: var(--cmp-c-VeryDarkMagenta);
+}
+
+
+.cmp__testimonial-name
+{
+    color: var(--cmp-c-White);
+}
+
+.cmp__testimonial-desc 
+{
+    color: var(--cmp-c-SoftPink);
+    font-weight: 400;
+}
+
+
+.cmp__testimonial-body
+{
+    color: var(--cmp-c-White);
+}
+
+@media (min-width: 1000px)
+{
+    .cmp h1 
+    {
+        font-size: 3.29rem;
+    }
+}
