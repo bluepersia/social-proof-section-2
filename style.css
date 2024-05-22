@@ -1,0 +1,28 @@
+:root 
+{
+    --cmp-c-VeryDarkMagenta: hsl(300, 43%, 22%);
+    --cmp-c-SoftPink: hsl(333, 80%, 67%);
+
+    --cmp-c-DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --cmp-c-LightGrayishMagenta: hsl(300, 24%, 96%);
+    --cmp-c-White: hsl(0, 0%, 100%);
+
+    --cmp-f-1: "League Spartan", sans-serif;
+}
+
+body 
+{
+    margin:0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child {
+    margin-top: 0;
+}
+
+* :last-child {
+    margin-bottom: 0;
+}
