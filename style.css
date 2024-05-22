@@ -192,6 +192,7 @@ html {
 
     .cmp {
         padding: 6.9em 11.4%;
+        background-image: url(./images/bg-pattern-top-desktop.svg), url(.//images/bg-pattern-bottom-desktop.svg);
     }
     .cmp__header {
         display: flex;
